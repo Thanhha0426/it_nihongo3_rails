@@ -1,3 +1,4 @@
+<!-- Tao moi quyen sach , them moi-->
 <%= form_with(model: book, local: true) do |form| %>
   <% if book.errors.any? %>
     <div id="error_explanation">
@@ -30,7 +31,7 @@
     <%= form.label :image %>
     <%= form.file_field :image %>
   </div>
-
+  
   <div class="actions">
     <%= form.submit %>
   </div>
